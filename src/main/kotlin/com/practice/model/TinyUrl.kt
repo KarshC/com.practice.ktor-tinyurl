@@ -9,3 +9,5 @@ data class TinyUrl(
     val shortUrl: String,
 )
 
+//Using in-memory storage (mutableList of TinyUrl here) for storing data
+val tinyUrlStorage = mutableListOf<TinyUrl>()
